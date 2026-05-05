@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Special Invitation ❣️</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #ffe6f0;
+    padding-top: 100px;
+  }
+  h1 {
+    color: #ff4d88;
+  }
+  button {
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  #yes {
+    background-color: #4CAF50;
+    color: white;
+  }
+  #maybe {
+    background-color: #ffcc00;
+  }
+</style>
+</head>
+<body>
+
+<h1>Hey my babe ❣️</h1>
+<p>Would you like to go on a date with me this Thursday? 🥹</p>
+
+<button id="yes" onclick="sayYes()">Yes 💖</button>
+<button id="maybe" onclick="sayMaybe()">Maybe 🤔</button>
+
+<p id="response"></p>
+
+<script>
+function sayYes() {
+  document.getElementById("response").innerHTML =
+    "YAY!! 😍 i'll be waiting for you babe ♥️";
+}
+
+function sayMaybe() {
+  document.getElementById("response").innerHTML =
+    "Hmm... what if I add your favorite dessert? 🍰😏";
+}
+</script>
+
+</body>
+</html>
